@@ -1,0 +1,14 @@
+.portfolioPanel {
+  .container {
+    display: flex;
+    flex-direction: row;
+
+    .chart {
+      flex: 0 0 auto;
+    }
+
+    .table {
+      flex: 1 1 auto;
+    }
+  }
+}
