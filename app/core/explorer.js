@@ -1,7 +1,7 @@
 // @flow
 import { openExternal } from './electron'
 import { EXPLORERS } from '../core/constants'
-import { isMainNetwork } from '../core/networks'
+import { isMainNetwork, isPrivNetwork } from '../core/networks'
 
 export const getExplorerBaseURL = (networkId: string, explorer: ExplorerType) => {
   let baseURL
