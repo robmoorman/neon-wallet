@@ -6573,7 +6573,7 @@ neo-async@^2.5.0:
 
 "neon-js@git+https://github.com/robmoorman/neon-js.git#feature/privnet":
   version "3.4.4"
-  resolved "git+https://github.com/robmoorman/neon-js.git#b0fd347a89a7e7cb2488655c4e8afe4bd3dc40cd"
+  resolved "git+https://github.com/robmoorman/neon-js.git#ab722ae77b4c74c9804499c8c915ec035451a102"
   dependencies:
     axios "^0.18.0"
     bignumber.js "5.0.0"
