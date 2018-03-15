@@ -61,6 +61,13 @@ export const MAIN_NETWORK_ID = '1'
 export const TEST_NETWORK_ID = '2'
 export const PRIV_NETWORK_ID = '3'
 
+// PrivNet
+export const TOKENS_PRIV = {
+  DBC: 'b951ecbbc5fe37a9c280a76cb0ce0014827294cf',
+  RPX: '5b7074e873973a6ed3708862f219a6fbf4d1c411',
+  QLC: '0d821bd7b6d53f5c2b40e217c6defc8bbe896cf5'
+}
+
 // TestNet
 export const TOKENS_TEST = {
   DBC: 'b951ecbbc5fe37a9c280a76cb0ce0014827294cf',

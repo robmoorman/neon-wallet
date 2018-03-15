@@ -14,6 +14,8 @@ export const getExplorerBaseURL = (networkId: string, explorer: ExplorerType) =>
   } else if (explorer === EXPLORERS.NEO_SCAN) {
     if (isMainNetwork(networkId)) {
       baseURL = 'https://neoscan.io'
+    } else if (isPrivNetwork(networkId)) {
+      baseURL = 'http://localhost:4000'
     } else {
       baseURL = 'https://neoscan-testnet.io'
     }
